@@ -6,6 +6,9 @@ const Expense=(props)=>
 {
     let title=props.title;
 
+
+
+    
   const click=()=>
   {
   title='updated';
