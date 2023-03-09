@@ -19,7 +19,7 @@ const Expense=(props)=>
                <h2>{title}</h2> 
                 <div className="expense-item__price">{props.amount}</div>
            </div>
-            <button onClick={click} className="expense-item__price">CHANGE TITLES</button>
+            <button onClick={click} className="expense-item__price">CHANGE TITLE</button>
         </Card>
 
     );
